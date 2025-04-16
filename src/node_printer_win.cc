@@ -22,6 +22,7 @@ namespace{
     */
     template<typename Type>
     class MemValue: public MemValueBase<Type> {
+    Type* _value;
     public:
         /** Constructor of allocating iSizeKbytes bytes memory;
         * @param iSizeKbytes size in bytes of required allocating memory
